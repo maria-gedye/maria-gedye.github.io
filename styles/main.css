@@ -8,6 +8,9 @@
 .sky-text {
     color: #55BEC0;
 }
+.white-text {
+    color: white;
+}
 
 h1 {
     font-family: "Permanent Marker", Arial, Helvetica, sans-serif;
@@ -36,6 +39,7 @@ body {
 
 .smaller-image {
     width: 500px;
+    border-radius: 10px;
 }
 
 .navy-background {
