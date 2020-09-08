@@ -1,5 +1,5 @@
-<link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap" rel="stylesheet">
-<link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap" rel="stylesheet" type="text/css">
+<link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans&display=swap" rel="stylesheet" type="text/css">
 <style>
 .aqua-text {
     color: #6DFFE7;
@@ -9,12 +9,12 @@
 }
 
 h1 {
-    font-family: "Permanent Marker", cursive;
+    font-family: "Permanent Marker", monospace;
     color:#6DFFE7; 
 }
 
 h3 {
-    font-family: "Permanent Marker", cursive;
+    font-family: "Permanent Marker", monospace;
     color: #55BEC0;
 }
 
@@ -31,4 +31,11 @@ body {
     width: 1366px;
 }
 
+.smaller-image {
+    width: 200px;
+}
+
+.navy-background {
+    background-color: #394F6B;
+}
 </style>
