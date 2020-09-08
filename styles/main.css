@@ -39,12 +39,12 @@ body {
 
 .smaller-image {
     height: 500px;
-    border-radius: 250px;
+    border-radius: 500px;
 }
 
 .navy-box {
     background-color: #394F6B;
-    padding: 500px;
-    margin: 500px;
+    padding: 10%;
+    margin: 5%;
 }
 </style>
