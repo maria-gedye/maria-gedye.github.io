@@ -24,6 +24,11 @@ p {
     color: white;
 }
 
+li {
+    font-family: 'Kumbh Sans', sans-serif;
+    color: white;
+}
+
 body {
     background-color: #12182B;
 }
