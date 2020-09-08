@@ -38,13 +38,13 @@ body {
 
 
 .smaller-image {
-    width: 500px;
-    border-radius: 100px;
+    height: 500px;
+    border-radius: 250px;
 }
 
 .navy-box {
     background-color: #394F6B;
-    padding: 50px;
-    margin: 50px;
+    padding: 500px;
+    margin: 500px;
 }
 </style>
