@@ -1,0 +1,34 @@
+<link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans&display=swap" rel="stylesheet">
+<style>
+.aqua-text {
+    color: #6DFFE7;
+}
+.sky-text {
+    color: #55BEC0;
+}
+
+h1 {
+    font-family: "Permanent Marker", cursive;
+    color:#6DFFE7; 
+}
+
+h3 {
+    font-family: "Permanent Marker", cursive;
+    color: #55BEC0;
+}
+
+p {
+    font-family: 'Kumbh Sans', sans-serif;
+    color: white;
+}
+
+body {
+    background-color: #12182B;
+}
+
+.larger-image {
+    width: 1366px;
+}
+
+</style>
