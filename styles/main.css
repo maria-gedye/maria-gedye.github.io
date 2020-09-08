@@ -51,5 +51,10 @@ div {
 
 }
 
+.right {
+    float: right;
+    padding: 10px 10px 0 5px;
+}
+
 
 </style>
