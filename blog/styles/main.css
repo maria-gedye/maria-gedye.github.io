@@ -12,32 +12,47 @@
 .white-text {
     color: white;
 }
-
 h1 {
-    font-family: "Permanent Marker", Arial, Helvetica, sans-serif;
-    color:#6DFFE7; 
+    font-family: "Permanent Marker", Helvetica, sans-serif;
+    color:  #12182B;
 }
 
 h3 {
-    font-family: "Permanent Marker", Arial, Helvetica, sans-serif;
-    color: #55BEC0;
+    font-family: "Permanent Marker", Helvetica, sans-serif;
+    color:  #12182B;
 }
 
 p {
     font-family: 'Kumbh Sans', sans-serif;
-    color: white;
+    color:black;
+}
+
+li {
+    font-family: 'Kumbh Sans', sans-serif;
+    color: black;
 }
 
 body {
-    background-color: #12182B;
+    background-color: whitesmoke
 }
 
+a {
+    color: black;
+}
+
+a:hover {
+    color:  #55BEC0;
+}
+
+div {
+    padding: 20px;
+    margin: 20px;
+
+}
 
 .smaller-image {
     width: 500px;
 }
 
-.navy-background {
-    background-color: #394F6B;
-}
+
 </style>

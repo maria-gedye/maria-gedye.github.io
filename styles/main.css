@@ -14,12 +14,12 @@
 }
 
 h1 {
-    font-family: "Permanent Marker", Arial, Helvetica, sans-serif;
+    font-family: "Permanent Marker", Helvetica, sans-serif;
     color:  #12182B;
 }
 
 h3 {
-    font-family: "Permanent Marker", Arial, Helvetica, sans-serif;
+    font-family: "Permanent Marker", Helvetica, sans-serif;
     color:  #12182B;
 }
 
@@ -45,7 +45,7 @@ a:hover {
     color:  #55BEC0;
 }
 
-.white-box {
+div {
     padding: 20px;
     margin: 20px;
 
