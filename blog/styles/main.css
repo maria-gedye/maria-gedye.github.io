@@ -21,6 +21,7 @@ h1 {
 h2 {
     font-family: "Permanent Marker", Helvetica, sans-serif;
     color:  #00203FFF;
+    padding-bottom: -2mm;
 }
 
 h3 {
@@ -31,6 +32,9 @@ h3 {
 p {
     font-family: 'Kumbh Sans', sans-serif;
     color:#00203FFF;
+    font-size: 14px;
+    line-height: 5mm;
+    padding-bottom: 5mm;
 }
 
 li {
