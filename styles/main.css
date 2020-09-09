@@ -56,5 +56,27 @@ div {
     padding: 10px 10px 0 5px;
 }
 
+div {
+    position: relative;
+    width: 500px;
+    height: 500px;
+}
+
+.yellow-background {
+    background-color: yellowgreen;
+}
+
+.child-2 {
+position: absolute;
+top: 35%;
+right: -25px;
+}
+
+.child-3 {
+    position: absolute;
+    bottom: -100px;
+    left: 10px;
+}
+
 
 </style>

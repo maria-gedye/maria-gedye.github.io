@@ -2,6 +2,7 @@
 @import url(https://fonts.googleapis.com/css2?family=Kumbh+Sans&display=swap);
 
 <style>
+
 .aqua-text { 
     color: #6DFFE7; }
 
@@ -14,38 +15,43 @@
 }
 h1 {
     font-family: "Permanent Marker", Helvetica, sans-serif;
-    color:  #12182B;
+    color: #00203FFF;
+}
+
+h2 {
+    font-family: "Permanent Marker", Helvetica, sans-serif;
+    color:  #00203FFF;
 }
 
 h3 {
     font-family: "Permanent Marker", Helvetica, sans-serif;
-    color:  #12182B;
+    color: #00203FFF;
 }
 
 p {
     font-family: 'Kumbh Sans', sans-serif;
-    color:black;
+    color:#00203FFF;
 }
 
 li {
     font-family: 'Kumbh Sans', sans-serif;
-    color: black;
+    color: #00203FFF;
 }
 
 body {
-    background-color: whitesmoke
+    background-color: #ADEFD1FF;
 }
 
 a {
-    color: black;
+    color: #00203FFF;
 }
 
 a:hover {
-    color:  #55BEC0;
+    color:  #D85A7FFF;
 }
 
 div {
-    padding: 20px;
+    padding: 10px;
     margin: 20px;
 
 }
@@ -60,7 +66,19 @@ div {
 
 .right {
     float: right;
-    padding: 10px 10px 0 5px;
+    padding: 20px;
+    width: 75%;
 }
+
+.wrap {
+    position:relative;
+}
+
+.child-1 {
+    position: absolute;
+    top: 20px;
+    right: 50px;
+}
+
 
 </style>
