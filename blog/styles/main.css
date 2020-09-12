@@ -56,6 +56,7 @@ nav a {
 .content-box {
     padding-top: 60px;
     margin-left: 6%;
+    margin-right: 10%;
 }
 .content-box h1 {
     font-family: "Grenze Gotisch", "Kumbh Sans";
@@ -64,15 +65,20 @@ nav a {
     padding-top: 100px;
 }
 
-.content-box h3 {
+h3 {
     font-family: 'Open Sans', sans-serif;
     color:#262626
     padding-bottom: -2mm;
 }
 
-.content-box p {
+p {
     font-family: 'Open Sans', sans-serif;
     color:#262626
+}
+.quote-gold {
+    color: #8C7968;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16pt;
 }
 
 li {
@@ -104,7 +110,7 @@ a:hover {
 }
 
 .larger-image {
-    width: 530px;
+    width: 50%;
 }
 
 .float-image {
@@ -126,9 +132,16 @@ a:hover {
     border-color: #8C7968;
     border-width: 1.5px;
     border-style: solid;
-    padding: 20px;
+    padding: 10px;
     border-radius: 8px;
 }
+
+
+.flex-parent {
+        display: flex;
+        flex-direction: row;
+        justify-content: left;
+    }
 
 
 </style>
