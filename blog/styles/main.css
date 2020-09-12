@@ -1,64 +1,103 @@
-@import url(https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap);
+@import url(https://fonts.googleapis.com/css2?family=Grenze+Gotisch:wght@200;400&family=Open+Sans&display=swap);
 @import url(https://fonts.googleapis.com/css2?family=Kumbh+Sans&display=swap);
 
 <style>
 
-.aqua-text { 
-    color: #6DFFE7; }
-
-.sky-text {
-    color: #55BEC0;
+*{
+    margin: 0;
+    padding: 0;
+}
+a {
+    text-decoration: none;
+}
+body{
+    text-align: left;
+    margin: 0 0 0 0;
+}
+.wrapper {
+    width: 1170px;
+    margin: 0 auto;
+}
+header {
+    height: 100px;
+    top: 0px;
+    background-color: #733E39;
+    width: 100%;
+    z-index: 12;
+    position: fixed;
+}
+.logo {
+    width: 16%;
+    float: left;
+    line-height: 100px;
+}
+.logo a {
+    text-decoration: none;
+    font-size: 30px;
+    font-family: "Grenze Gotisch", "Kumbh Sans";
+    font-weight: 400;
+    color: white;
+}
+nav {
+    float: right;
+    line-height: 100px;
+}
+nav a {
+    text-decoration: none;
+    font-family: "Grenze Gotisch", "Kumbh Sans";
+    font-size: 22px;
+    margin: 0 15px;
+    color: white;
 }
 
 .white-text {
     color: white;
 }
-h1 {
-    font-family: "Permanent Marker", Helvetica, sans-serif;
-    color: #00203FFF;
+.content-box {
+    padding-top: 60px;
+    margin-left: 6%;
+}
+.content-box h1 {
+    font-family: "Grenze Gotisch", "Kumbh Sans";
+    color: #733E39;
+    font-size: 28pt;
+    padding-top: 100px;
 }
 
-h2 {
-    font-family: "Permanent Marker", Helvetica, sans-serif;
-    color:  #00203FFF;
+.content-box h3 {
+    font-family: 'Open Sans', sans-serif;
+    color:#262626
     padding-bottom: -2mm;
 }
 
-h3 {
-    font-family: "Permanent Marker", Helvetica, sans-serif;
-    color: #00203FFF;
-}
-
-p {
-    font-family: 'Kumbh Sans', sans-serif;
-    color:#00203FFF;
-    font-size: 14px;
-    line-height: 5mm;
-    padding-bottom: 5mm;
+.content-box p {
+    font-family: 'Open Sans', sans-serif;
+    color:#262626
 }
 
 li {
-    font-family: 'Kumbh Sans', sans-serif;
-    color: #00203FFF;
+    font-family: 'Open Sans', sans-serif;
+    color:#0D0D0D;
+    line-height: 7mm;
+    font-size: 12pt;
 }
+li::marker {
+    color: #8C7968
+  }
 
 body {
-    background-color: #ADEFD1FF;
+    background-color: whitesmoke;
 }
 
 a {
-    color: #00203FFF;
+    color: #0D0D0D;
+    font-family: 'Open Sans', sans-serif;
 }
 
 a:hover {
-    color:  #D85A7FFF;
+    color: #8C7968;
 }
 
-div {
-    padding: 10px;
-    margin: 20px;
-
-}
 
 .smaller-image {
     width: 500px;
@@ -68,20 +107,27 @@ div {
     width: 530px;
 }
 
-.right {
-    float: right;
+.float-image {
+    img {
+        float: right;
+        margin: 1em;
+        width: 50%;
+}
+}
+.button-area {
+    width: 10%;
+    margin-left: 6%;
+    padding-top: 35px;
+    color:#8C7968;
+    text-align: center;
+}
+
+.thin-gold-border {
+    border-color: #8C7968;
+    border-width: 1.5px;
+    border-style: solid;
     padding: 20px;
-    width: 75%;
-}
-
-.wrap {
-    position:relative;
-}
-
-.child-1 {
-    position: absolute;
-    top: 20px;
-    right: 50px;
+    border-radius: 8px;
 }
 
 

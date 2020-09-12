@@ -1,83 +1,141 @@
-@import url(https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap);
+@import url(https://fonts.googleapis.com/css2?family=Grenze+Gotisch:wght@200;400&family=Open+Sans&display=swap);
 @import url(https://fonts.googleapis.com/css2?family=Kumbh+Sans&display=swap);
 
 <style> 
 
-.aqua-text { 
-    color: #6DFFE7; }
-
-.sky-text {
-    color: #55BEC0;
+*{
+    margin: 0;
+    padding: 0;
 }
-.white-text {
+a {
+    text-decoration: none;
+}
+body{
+    text-align: left;
+    margin: 0 0 0 0;
+}
+.wrapper {
+    width: 1170px;
+    margin: 0 auto;
+}
+header {
+    height: 100px;
+    top: 0px;
+    background-color: #733E39;
+    width: 100%;
+    z-index: 12;
+    position: fixed;
+}
+.logo {
+    width: 16%;
+    float: left;
+    line-height: 100px;
+}
+.logo a {
+    text-decoration: none;
+    font-size: 30px;
+    font-family: "Grenze Gotisch", "Kumbh Sans";
+    font-weight: 400;
     color: white;
 }
-
-h1 {
-    font-family: "Permanent Marker", Helvetica, sans-serif;
-    color:  #12182B;
+nav {
+    float: right;
+    line-height: 100px;
+}
+nav a {
+    text-decoration: none;
+    font-family: "Grenze Gotisch", "Kumbh Sans";
+    font-size: 22px;
+    margin: 0 15px;
+    color: white;
+}
+.banner-area {
+    width: 100%;
+    height: 700px;
+    position: fixed;
+    top: 100px;
+    line-height: 1em;
+    padding-top: 40px;
+    background-image: url("/Users/mariagedye/Desktop/Horoeka DEV Academy/maria-gedye.github.io/foodiesfeed.com_man-making-homemade-spaghettiEdited.jpg");
+    background-color: #262626;
+    background-size: cover;
+    background-position: center center;
 }
 
-h3 {
-    font-family: "Permanent Marker", Helvetica, sans-serif;
-    color:  #12182B;
+.banner-area h1 {
+    padding-top: 2%;
+    margin-left: 6%;
+    font-family: "Grenze Gotisch", "Kumbh Sans";
+    color: white;
+    font-size: 60pt;
+}
+.smaller-weight {
+    padding-left: 13.5em;
+    padding-top: 0;
+    font-family: "Grenze Gotisch", "Kumbh Sans";
+    color: white;
+    font-size: 18pt;
+    font-weight: 200;
+}
+.button-area {
+    width: 10%;
+    margin-left: 6%;
+    padding-top: 50px;
+    color: white;
+    text-align: center;
+}
+#white-text {
+    color: white;
+}
+.thin-white-border {
+    border-color: white;
+    border-width: 1.5px;
+    border-style: solid;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.content-area {
+    width: 100%;
+    position: relative;
+    top: 700px;
+    background: whitesmoke;
+    height: 1500px;
+}
+
+.content-area h2 {
+    font-family: "Grenze Gotisch", "Kumbh Sans";
+    color: #733E39;
+    font-size: 28pt;
+    padding-top: 100px;
+    scroll-margin-top: 100px;
 }
 
 p {
-    font-family: 'Kumbh Sans', sans-serif;
-    color:black;
+    font-family: 'Open Sans', sans-serif;
+    color:#0D0D0D;
 }
 
 li {
-    font-family: 'Kumbh Sans', sans-serif;
-    color: black;
+    font-family: 'Open Sans', sans-serif;
+    color:#0D0D0D;
     line-height: 7mm;
+    font-size: 12pt;
 }
+li::marker {
+    color: #8C7968
+  }
 
 body {
-    background-color: whitesmoke
+    background-color: whitesmoke;
 }
 
 a {
-    color: black;
+    color: #0D0D0D;
 }
 
 a:hover {
-    color:  #55BEC0;
+    color: #8C7968;
 }
-
-div {
-    padding: 20px;
-    margin: 20px;
-
-}
-
-.right {
-    float: right;
-    padding: 10px 10px 0 5px;
-}
-
-div {
-    position: relative;
-    width: 500px;
-    height: 500px;
-}
-
-.yellow-background {
-    background-color: yellowgreen;
-}
-
-.child-2 {
-position: absolute;
-top: 35%;
-right: -25px;
-}
-
-.child-3 {
-    position: absolute;
-    bottom: -100px;
-    left: 10px;
-}
-
 
 </style>
