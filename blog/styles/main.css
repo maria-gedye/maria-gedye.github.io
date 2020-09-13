@@ -73,7 +73,7 @@ li::marker {
     color: #8C7968
   }
   .border-button {
-    margin: 1em;
+    margin: 5px;
     color: #8C7968;
     text-align: center;
     border-color: #8C7968;
@@ -119,6 +119,9 @@ p {
         display: flex;
         flex-direction: row;
         justify-content: left;
+    }
+    .flex-margin {
+        margin: 10px 10px 10px -4px;
     }
 
 
