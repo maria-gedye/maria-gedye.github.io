@@ -9,13 +9,16 @@
 }
 a {
     text-decoration: none;
+    color: #0D0D0D;
+}
+a:hover {
+    color: #8C7968;
 }
 body{
     text-align: left;
     margin: 0 0 0 0;
 }
 .wrapper {
-    width: 1170px;
     margin: 0 auto;
 }
 header {
@@ -27,12 +30,11 @@ header {
     position: fixed;
 }
 .logo {
-    width: 16%;
+    margin-left: 6%;
     float: left;
     line-height: 100px;
 }
 .logo a {
-    text-decoration: none;
     font-size: 30px;
     font-family: "Grenze Gotisch", "Kumbh Sans";
     font-weight: 400;
@@ -41,12 +43,11 @@ header {
 nav {
     float: right;
     line-height: 100px;
+    padding-right: 10%;
 }
 nav a {
-    text-decoration: none;
     font-family: "Grenze Gotisch", "Kumbh Sans";
     font-size: 22px;
-    margin: 0 15px;
     color: white;
 }
 .banner-area {
@@ -69,38 +70,37 @@ nav a {
     color: white;
     font-size: 60pt;
 }
-.smaller-weight {
-    padding-left: 13.5em;
-    padding-top: 0;
+h4 {
+    padding-left: 16em;
+    padding-bottom: 2em;
     font-family: "Grenze Gotisch", "Kumbh Sans";
     color: white;
-    font-size: 18pt;
     font-weight: 200;
+    font-size: 18pt;
 }
-.button-area {
-    width: 10%;
+.border-button {
     margin-left: 6%;
-    padding-top: 50px;
     color: white;
     text-align: center;
+    border-color: white;
+    border-width: 1.5px;
+    border-style: solid;
+    padding: 20px 30px 20px 30px;
+    border-radius: 8px;
+    font-family: 'Open Sans', sans-serif;
 }
 #white-text {
     color: white;
 }
-.thin-white-border {
-    border-color: white;
-    border-width: 1.5px;
-    border-style: solid;
-    padding: 20px;
-    border-radius: 8px;
-}
 
 .content-area {
+    padding-left: 6%;
     width: 100%;
     position: relative;
     top: 700px;
     background: whitesmoke;
-    height: 1500px;
+    height: 1200px;
+
 }
 
 .content-area h2 {
@@ -130,12 +130,12 @@ body {
     background-color: whitesmoke;
 }
 
-a {
-    color: #0D0D0D;
-}
 
-a:hover {
-    color: #8C7968;
-}
+@media screen and (max-width: 700px) {
+    .button-area {
+        width: 10%;
+    }
+	}
+
 
 </style>
