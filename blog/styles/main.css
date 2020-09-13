@@ -10,6 +10,7 @@
 a {
     text-decoration: none;
     color: #0D0D0D;
+    font-family: 'Open Sans', sans-serif;
 }
 a:hover {
     color: #8C7968;
@@ -61,6 +62,7 @@ nav a {
 .padding-right {
 padding-right: 50px;
 }
+
 li {
     font-family: 'Open Sans', sans-serif;
     color:#0D0D0D;
@@ -71,7 +73,7 @@ li::marker {
     color: #8C7968
   }
   .border-button {
-    margin-left: 6%;
+    margin: 1em;
     color: #8C7968;
     text-align: center;
     border-color: #8C7968;
