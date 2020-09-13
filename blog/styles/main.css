@@ -9,13 +9,17 @@
 }
 a {
     text-decoration: none;
+    color: #0D0D0D;
 }
-body{
+a:hover {
+    color: #8C7968;
+}
+body {
     text-align: left;
     margin: 0 0 0 0;
+    background-color: whitesmoke;
 }
 .wrapper {
-    width: 1170px;
     margin: 0 auto;
 }
 header {
@@ -27,12 +31,11 @@ header {
     position: fixed;
 }
 .logo {
-    width: 16%;
+    margin-left: 6%;
     float: left;
     line-height: 100px;
 }
 .logo a {
-    text-decoration: none;
     font-size: 30px;
     font-family: "Grenze Gotisch", "Kumbh Sans";
     font-weight: 400;
@@ -41,46 +44,23 @@ header {
 nav {
     float: right;
     line-height: 100px;
+    padding-right: 10%;
 }
 nav a {
-    text-decoration: none;
     font-family: "Grenze Gotisch", "Kumbh Sans";
     font-size: 22px;
-    margin: 0 15px;
     color: white;
-}
-
-.white-text {
-    color: white;
-}
-.content-box {
-    padding-top: 60px;
-    margin-left: 6%;
-    margin-right: 10%;
-}
-.content-box h1 {
-    font-family: "Grenze Gotisch", "Kumbh Sans";
-    color: #733E39;
-    font-size: 28pt;
-    padding-top: 100px;
-}
-
-h3 {
-    font-family: 'Open Sans', sans-serif;
-    color:#262626
-    padding-bottom: -2mm;
-}
-
-p {
-    font-family: 'Open Sans', sans-serif;
-    color:#262626
 }
 .quote-gold {
     color: #8C7968;
     font-family: 'Open Sans', sans-serif;
-    font-size: 16pt;
+    font-size: 20pt;
+    letter-spacing: -1pt;
+    margin-top: 30pt;
 }
-
+.padding-right {
+padding-right: 50px;
+}
 li {
     font-family: 'Open Sans', sans-serif;
     color:#0D0D0D;
@@ -90,53 +70,49 @@ li {
 li::marker {
     color: #8C7968
   }
-
-body {
-    background-color: whitesmoke;
-}
-
-a {
-    color: #0D0D0D;
+  .border-button {
+    margin-left: 6%;
+    color: #8C7968;
+    text-align: center;
+    border-color: #8C7968;
+    border-width: 1.5px;
+    border-style: solid;
+    padding: 8px 25px 8px 25px;
+    border-radius: 8px;
     font-family: 'Open Sans', sans-serif;
 }
-
-a:hover {
-    color: #8C7968;
+.content-box {
+    margin-left: 6%;
 }
-
+.content-box h1 {
+    font-family: "Grenze Gotisch", "Kumbh Sans";
+    color: #733E39;
+    font-size: 28pt;
+    padding-top: 100px;
+}
+h3 {
+    font-family: 'Open Sans', sans-serif;
+    color:#262626;
+    padding-bottom: -2mm;
+}
+p {
+    font-family: 'Open Sans', sans-serif;
+    color:#262626
+}
 
 .smaller-image {
     width: 500px;
 }
 
-.larger-image {
-    width: 50%;
-}
-
-.float-image {
-    img {
-        float: right;
-        margin: 1em;
-        width: 50%;
-}
-}
-.button-area {
-    width: 10%;
-    margin-left: 6%;
-    padding-top: 35px;
-    color:#8C7968;
+.maroon-border {
+    color: #8C7968;
     text-align: center;
-}
-
-.thin-gold-border {
-    border-color: #8C7968;
+    border-color:  #733E39;
     border-width: 1.5px;
     border-style: solid;
     padding: 10px;
-    border-radius: 8px;
+    font-family: 'Open Sans', sans-serif;
 }
-
-
 .flex-parent {
         display: flex;
         flex-direction: row;
