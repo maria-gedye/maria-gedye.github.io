@@ -105,6 +105,9 @@ p {
 .smaller-image {
     width: 500px;
 }
+.shrink {
+    height: 50vh; /*this works wonders*/
+}
 
 .maroon-border {
     color: #8C7968;
