@@ -9,7 +9,7 @@
 }
 a {
     text-decoration: none;
-    color: #0D0D0D;
+    color: goldenrod;
     font-family: 'Open Sans', sans-serif;
 }
 a:hover {
@@ -62,6 +62,10 @@ nav a {
 .padding-right {
 padding-right: 50px;
 }
+
+.padding-top {
+    padding-top: 50px;
+    }
 
 li {
     font-family: 'Open Sans', sans-serif;
