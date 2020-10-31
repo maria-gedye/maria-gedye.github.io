@@ -149,5 +149,22 @@ body {
     }
 }
 
+/* this is my media queries test below */
+.example {
+    padding: 20px;
+    color: white;
+}
+
+@media only screen and (max-width: 320px) {
+    .example {background: red;}
+}
+
+@media only screen and (max-width: 768px) {
+    .example {background: blueviolet;}
+}
+
+@media only screen and (min-width: 1200px) {
+    .example {background: pink;}
+}
 
 </style>
