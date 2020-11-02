@@ -1,7 +1,6 @@
 @import url(https://fonts.googleapis.com/css2?family=Grenze+Gotisch:wght@200;400&family=Open+Sans&display=swap);
 @import url(https://fonts.googleapis.com/css2?family=Kumbh+Sans&display=swap);
 
-<style> 
 
 *{
     box-sizing: border-box;
@@ -78,7 +77,7 @@ nav a {
     margin-left: 6%;
     font-family: "Grenze Gotisch", "Kumbh Sans";
     color: white;
-    font-size: 60pt;
+    /* font-size: 60pt; */
 }
 
 h4 {
@@ -150,21 +149,30 @@ body {
 }
 
 /* this is my media queries test below */
-.example {
-    padding: 20px;
-    color: white;
-}
 
 @media only screen and (max-width: 320px) {
-    .example {background: red;}
+    h1{
+        font-size: 4vmax; 
+    }
+    .content-area {
+        background-color: pink;
+    }
 }
 
-@media only screen and (max-width: 768px) {
-    .example {background: blueviolet;}
+@media only screen and (min-width: 768px) {
+    h1{
+        font-size: 6vmax; 
+    }
+    .content-area {
+        background-color:greenyellow;
+    }
 }
 
 @media only screen and (min-width: 1200px) {
-    .example {background: pink;}
+    h1{
+        font-size: 5vmax; 
+    }
+    .content-area {
+        background-color:yellow;
+    }
 }
-
-</style>
