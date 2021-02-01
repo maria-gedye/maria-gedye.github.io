@@ -66,8 +66,6 @@ nav a {
 .quote-gold {
     color: #8C7968;
     font-family: 'Open Sans', sans-serif;
-    font-size: 20pt;
-    letter-spacing: -1pt;
     margin-top: 30pt;
 }
 
@@ -101,6 +99,7 @@ li::marker {
 
 .content-box {
     margin-left: 6%;
+    margin-right: 6%;
 }
 
 .content-box h1 {
