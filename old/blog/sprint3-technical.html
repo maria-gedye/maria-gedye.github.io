@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Sprint3-technical</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="styles/main.css" rel="stylesheet" type="text/css"/>
+  </head>
+  
+  <body>
+    <header>
+        <div class="wrapper">
+          <div class="logo">
+            <a href="http://maria-gedye.github.io/maria-gedye.github.io/index.html">Maria's World</a>
+          </div>
+          <nav>
+            <a href="#">:-D</a>
+          </nav>
+        </div>
+      </header>
+      <div class="content-box padding-right">
+    <h1>An Intro to JavaScript, the DOM and DevTools</h1>
+
+    <h3>Today, we're diving into the DOM, DevTools and some components of JavaScript; control flow and loops, arrays and objects, and functions.</h3> 
+<p><em> 21 September 2020</em></p>
+    <br>
+    
+<h3>We start with a webpage...</h3>
+        <p>If you don't know by now, HTML, CSS and Javascript are key components of a webpage.
+            HTML defines the structure like the bones and organs inside our wonderful human bodies and CSS provides 
+            the styling which would be our unique features such as curly hair, blue eyes and skin colour.
+            In the DOM, HTML uses tags for things like headings and images which flow down a page and CSS 
+            uses properties and values to instruct how your elements will appear - don't worry, we will explain what the DOM 
+            is in a minute.  </p>
+           
+            <div class="flex-parent flex-margin">
+                <img class="shrink" src="https://image.freepik.com/free-photo/human-body-bones-organs_1048-4904.jpg">
+                <img  class="shrink" src="https://img-cdn.brainberries.co/wp-content/uploads/2017/09/10-Extremely-Rare-But-Interesting-Body-Features-01-1.jpg">
+            </div>
+
+        <p>And then there's JavaScript which provides the interactive/magical stuff. Here are just some of the things it is capable of:
+            play with media; remembers where users left off; do things with users' mouse clicks, keyboard taps, and finger presses; use fancy navigation menus; 
+            animations; interact with webcams/microphones; not require a page reload/navigation for any kind of action.
+            </p>
+<br>
+<h3>Let's explore the DOM, Window, Document & Nodes</h3>
+        <p> 
+            <a href="https://www.w3.org/TR/WD-DOM/introduction.html">W3</a> defines the DOM (The Document Object Model) as a "programming API 
+            for documents. The object model itself closely resembles the structure of the documents it models.”
+            
+            The DOM is the glue that sets HTML, CSS and Javascript (the three key components of a webpage) together. It is an object 
+            representation of these <a href="https://youtu.be/gT0Lh1eYk78">tres amigos.</a> By using JavaScript, the DOM can provide 
+            direct access and allow you to modify any webpage via your document and window objects.
+            </p>
+            <p>This is what the DOM structure looks like:</p>
+            <img class="shrink" src="https://miro.medium.com/max/1000/1*rj51V99e1zHaznxMCD2-0Q.png">
+            <p>The root of your hierarchy is the window, which is a global object that contains many properties and methods 
+                that help you work with your browser. </p>
+                <p>  Underneath the window is the document which acts as the gateway to all the HTML elements on display. 
+                It acts like a two-way street where you can read as well as manipulate at will. </p>
+               
+                <p> Keep in mind with the window and document:</p>
+                <ul> 
+            
+                <li>  Some of the things you can do through the window object include: accessing the current URL, 
+                    getting information about any frames in the page, using local storage, seeing information about your screen, 
+                    fiddling with the scrollbar, setting the statusbar text, and all sorts of things that are applicable to the 
+                    container your web page is displayed in. </li>
+                    <li> In your document object, you can dynamically add elements, remove them, move them around, modify attributes on 
+                them, set inline CSS styles, all inside the DOM using JavaScript.</li>
+            </ul>
+            <img class="shrink" src="https://blog.irowell.io/static/3e7812585d1431cb872725ecdb811301/8ab8a/window_vs_document.jpg">
+
+               <p> The DOM is made up of nodes. Nodes are created by the browser and act as a type of mapping that lets you 
+                   access and modify the code. Nodes can be any of the following: elements, attributes, text content, comments, 
+                   document-related specs, and a few other things.
+                </p>
+            <br>
+            <p>This is what the Node structure looks like:</p>
+            <img class="shrink" src="https://web.stanford.edu/class/cs98si/img/dom_types.png">
+        
+        <br>
+        <h3>Control flow & loops what?</h3>
+        <p>The control flow is the order in which the computer executes(carries out) statements in a script. 
+            Code is run in order from the first line in the file to the last line, unless the computer runs across 
+            structures like conditionals and loops, which will change the control flow.  </p>
+
+            <p> If I was a red ball placed at the top of a hill, I would naturally roll from the top to the bottom 
+                just like how control flow runs code from the first line to the last line. But if that hill had an 
+                elephant standing in the middle or a random road that cut through it then that would change my ‘flow’ 
+                as I could get stuck in the elephant or could diverge down the random road which takes me back to the 
+                top of the hill. In code, the elephant or random road would be a conditional or loop which would also 
+                change the order in which the code flowed.</p>
+            
+                <p>Loops let you repeat code many times using instructions. To do this, you specify the conditions in 
+                    brackets and javaScript will execute these. If there is no limit specified, it will keep repeating 
+                    until you put in a (break;)</p>
+            
+            <p>Loops are blocking operations - but not quite as friendly as animation blocks. When you use loops 
+                it blocks all operations to your code so be careful to make sure you’re not relying on them to do 
+                interactive things or working with millions of items or it could cause freezing on the UI.</p>
+            
+                <h3>Arrays vs. Objects</h3>
+                <p>Objects and arrays both store data: to access and modify the data within these, object uses properties 
+                    and arrays use indexing. </p>
+                    <ul>
+                    <li> Objects look like: var objectName = {“key”: “value”, “key two”: “value two”}; </li>
+                    <li> Arrays look like: var arrayName = [“dog”, 23,] </li>
+                </ul>
+                   <p> Objects are similar to arrays except that instead of using indexes to access and modify data 
+                    you use properties to access the data. Objects are useful for storing data in a 
+                    structured way and can represent real world objects like a dog. You can even use single-word string 
+                    properties without quotes.  </p>
+        <p>
+                    To declare an array, use square brackets and separate entries with a comma  [“dog”, “cat”, 5].
+                    You can nest arrays within other arrays (called a multi-dimensional array). </p>
+                    <p>
+                    Just like in strings we can use indexes[number] which will specify an entry inside the array. 
+                    Note: make sure there are no spaces between the array name and the square brackets so it looks like this:
+                     array[3]; and not array [3];</p>
+                    <p>
+                    One important difference is that arrays are mutable unlike strings which are immutable therefore can be 
+                    changed freely. Again, make sure there are no spaces between array names and square brackets!
+                      </p>
+                      <br>
+        <h3>And finally, Functions</h3>
+                <p>JavaScript functions are used to perform operations. We can call JavaScript function many times to 
+                    reuse the code.</p>
+
+                    <p>Why are they useful?</p>
+                    <ul>
+                    <li> Code reusability: We can call a function several times so it save coding. </li>
+                    <li> Less coding: It makes our program compact. We don’t need to write many lines of code each time to 
+                    perform a common task. </li>
+                </ul>
+
+        <h3>References & Attributions</h3>
+       <ul>
+       <li> <a href="https://www.freepik.com/photos/people">Skeleton photo created by kjpargeter - www.freepik.com</a></li>
+       <li> <a href="https://img-cdn.brainberries.co/wp-content/uploads/2017/09/10-Extremely-Rare-But-Interesting-Body-Features-01-1.jpg">Girl photo</a></li>
+       <li> <a href="https://medium.com/@amritgangwar/javascript-dom-and-bom-5f563fa17b64">DOM structure image</a></li>
+       <li> <a href="https://blog.irowell.io/til/recognizing-window-width-with-event-listeners/">Window vs Document image</a></li>
+       <li> <a href="https://web.stanford.edu/class/cs98si/slides/the-document-object-model.html">Node structure image</a></li>
+       <li> <a href="https://www.javatpoint.com/javascript-function">JavaScript Function Advantages</a></li>
+    </ul>
+        
+<br>
+
+<div class="flex-parent flex-margin">
+    <a class="border-button" href="http://maria-gedye.github.io/maria-gedye.github.io/blog/sprint3-cultural.html">Back</a>
+     <a class="border-button" href="http://maria-gedye.github.io/maria-gedye.github.io/index.html">Home</a>
+  </div>
+</div>
+    </body>
+
+    </html>

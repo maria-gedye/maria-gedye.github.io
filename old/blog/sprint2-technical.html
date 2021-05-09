@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Sprint2-technical</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="styles/main.css" rel="stylesheet" type="text/css"/>
+  </head>
+  
+  <body>
+    <header>
+        <div class="wrapper">
+          <div class="logo">
+            <a href="http://maria-gedye.github.io/maria-gedye.github.io/index.html">Maria's World</a>
+          </div>
+          <nav>
+            <a href="#">:-D</a>
+          </nav>
+        </div>
+      </header>
+      <div class="content-box padding-right">
+    <h1>An Intro to Relative, Absolute and Fixed Positioning</h1>
+
+    <h3>Today I'll explain how and when you should use these in css</h3> 
+<p><em> 9 September 2020</em></p>
+    <br>
+ <img style="float: right; margin: 0px 15px 15px 10px;" src="images/css positions.jpeg">
+ <h3>So what are they?</h3>
+        <p>The terms 'relative' 'absolute' and 'fixed' are the names of CSS positions and we use these "to manipulate 
+            how elements are positioned(on a html page) to achieve different visual effects" and layouts. There are actually five values in total
+            that sit under CSS Positioning:  </p>
+
+        <p>I'm going to give an introduction on the static position as well as the other three in the title but before we move on,
+            there is one important concept to grasp first and that is: Every single element on a web page is a block. "Literally
+            a rectangle of pixels. This means you can set a width and a height and that element will respect that." There's more 
+            explanation on this <a href="https://css-tricks.com/absolute-relative-fixed-positioining-how-do-they-differ/">here</a> <!--add url here-->
+        </p>
+<br>
+        <h3>Static</h3>
+        <p> All page elements are positioned as static by default. This means the element will stay put and should appear as 
+            you'd expect it to on your page.
+        </p>
+
+        <h3>Relative</h3>
+        <p>The name could be defined as "relative to itself" so if you were to set an element with the position: relative; this element
+            is no longer in the static position. Visually, your element will still look the same until you add some positioning attributes (top, left,
+            bottom, right). If you were to add left: 5px; it would shift or nudge its position 5 pixels in the opposite direction(it would appear 
+            to move 5 pixels to the right). If you were to also add top: 20px; it will shift 20 pixels downwards from its original position.
+        </p>
+        <p>Once you set an element's position to relative, there are two things to be aware of:</p>
+            <ol>
+                <li>Elements with the relative position can now have a z-index property added</li>
+                <p>(this is used for stacking elements in a specific order, kind of like the "bring forward/backward" action in powerpoint and photoshop)</p>
+                <li>Any child elements with the position: absolute; (we talk about absolute next), will be limited to being positioned
+                    within that parent element. </li>
+            </ol> <!--add a useful img here-->
+<br>
+        <h3>Absolute</h3>
+        <p> The name could be defined as "viewed or existing independently" and can come in very handy as this type of positioning allows 
+            you to set any element exactly where you want it. If you were to set a new element with the position: absolute; this is no longer
+            in the static position. This absolute element has now been 'removed from the flow' of elements on the page which means
+            it is not affected by other elements and it doesn't affect other elements; like it's sitting in
+            its own layer. 
+        </p>
+<p>So now you can add positioning attributes (top, left, bottom, right) to set the location which will always
+    be relative to the closest parent element with relative(or absolute) positioning. Using negative values
+    (bottom: -100px) will place your absolute elements outside of their containing elements.
+</p>
+    <img style="float: right; margin: 0px 15px 15px 15px;" src="images/absolute within relative position example.jpeg">
+
+    <p><em>Please note:</em></p>
+    <ul>
+        <li>"If there is no such parent
+            it will default all the way back up to the html element itself meaning it will be placed relative to the page itself".</li>
+            <li>Be careful with how many elements you set to absolute as "overuse or improper use can
+                limit the flexibility of your site".</li>
+    </ul> 
+<br>
+        <h3>Fixed</h3>
+        <p>Finally we have fixed and this position is always relative to the browser window itself. When you give
+            an element the position: fixed; it will stay in the same place, even when you scroll down the page. Just like
+            the absolute position, this also takes it 'out of the flow' so it does not affect the other static or
+            relative elements on your page.
+        </p>
+
+        <p>Typical uses for position: fixed; would be a navigation bar but a common problem with fixed headers is
+            that they can get in the way of elements that you may be trying to link to. There is a good solution
+            to this problem and that is found <a href="https://css-tricks.com/fixed-headers-and-jump-links-the-solution-is-scroll-margin-top/">here</a>
+        </p>
+<br>
+        <h3>References</h3>
+        <a href="https://css-tricks.com/absolute-relative-fixed-positioining-how-do-they-differ/">Chris Coyier</a> 
+        <br>
+        <a href="https://zellwk.com/blog/css-positions/">Zell</a> 
+<br>
+
+<div class="flex-parent flex-margin">
+    <a class="border-button" href="http://maria-gedye.github.io/maria-gedye.github.io/blog/sprint2-cultural.html">Next</a>
+     <a class="border-button" href="http://maria-gedye.github.io/maria-gedye.github.io/index.html">Home</a>
+  </div>
+</div>
+    </body>
+
+    </html>
