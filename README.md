@@ -28,4 +28,4 @@ this is currently a work in progress of past and current projects.
 
 2021 - QT
 
-2022 - Django, pandas, numPy
+2022 - Django, pandas, numPy, bootstrap
