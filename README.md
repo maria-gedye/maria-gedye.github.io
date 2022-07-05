@@ -1,12 +1,12 @@
-# Maria's Portfolio 
+# Maria's Blog
 
-this is currently a work in progress of past and current projects.
+a work in progress blog of my tech experience
 
 
 
 ### My Timeline
 
-2020 - completed 60-70 hrs web development training scheme
+2020 - completed 60-70 hrs web development bootcamp
 
 2021 - started software engineering degree
 
